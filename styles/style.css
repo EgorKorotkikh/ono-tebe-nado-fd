@@ -31,7 +31,7 @@
   list-style: none;
 }
 
-.menu-list__item{
+.menu-list__item {
   text-underline-offset: 5px;
 }
 
@@ -309,7 +309,7 @@
   line-height: 21.13px;
 }
 
-.footer__menu-link{
+.footer__menu-link {
   text-underline-offset: 5px;
 }
 
