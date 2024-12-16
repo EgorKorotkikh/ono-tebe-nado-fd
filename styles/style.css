@@ -130,7 +130,6 @@
 }
 
 .cover__description-text {
-  font-family: Raleway;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
@@ -143,7 +142,6 @@
   border: 1px solid #ffffff;
   padding: 13px 31px;
   color: #fff;
-  font-family: Raleway;
   font-weight: 500;
   font-size: 22px;
   line-height: 25.83px;
@@ -169,14 +167,14 @@
   margin-right: 24px;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 25px;
+  gap: 25px;
   list-style: none;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 .lots__card-list-item {
-  width: 335px;
-  min-height: 596px;
+  max-width: 334px;
+  min-height: 598px;
 }
 
 .card-link {
@@ -287,7 +285,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 158px 24px 82px;
+  padding: 155px 24px 82px;
 }
 
 .footer > .address {
